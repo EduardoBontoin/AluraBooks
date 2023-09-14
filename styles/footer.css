@@ -1,0 +1,7 @@
+.rodape{
+    padding: 1em;
+    font-weight: 400;
+    background-color: #F9F9F9;
+    border-top: 0.5px solid black;
+    /* font-family: var(--fonte-principal); */
+}
