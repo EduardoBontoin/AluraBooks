@@ -8,7 +8,7 @@
 }
 
 .cabecalho {
-    background-color: var(--branco);
+    background-color: var(--cor-branco);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,6 +29,7 @@
     position: absolute;
     top: 100%;
     width: 60vw;
+    
 }
 
 .container__botao:checked~.lista-menu {
@@ -37,10 +38,20 @@
 
 .lista-menu__titulo, .lista-menu__item {
 
-    background-color: var(--branco);
+    background-color: var(--cor-branco);
     padding:1em;
 }
 
 .lista-menu__titulo {
     color: var(--cor-laranja);
+    font-weight: 700;
+}
+
+
+.lista-menu__link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
 }
