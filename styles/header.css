@@ -5,6 +5,10 @@
 .menu {
     display: none;
 }
+
+.menu__tablet{
+    display: none;
+}
 .lista-menu__logo{
     display: none;
 }
